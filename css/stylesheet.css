@@ -1,0 +1,21 @@
+body {
+  background-color: #263859;
+}
+
+hr {
+  width: 30%;
+  border: none;
+  border-top: 5px dotted #FF6768;
+}
+
+h1 {
+  font-style: oblique;
+  font-size: 20px;
+  font-family: helvetica, sans-serif;
+}
+
+ul li {
+  text-indent: none;
+  text-decoration: none;
+  list-style: none; 
+}
