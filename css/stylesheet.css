@@ -1,21 +1,143 @@
 body {
-  background-color: #263859;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
-hr {
-  width: 30%;
-  border: none;
-  border-top: 5px dotted #FF6768;
+:link {
+  font-style: normal;
+  text-decoration: none;
+  font-family: 'Taviraj', serif;
+  color: #cf455c;
+}
+
+p {
+  font-weight: normal;
+  line-height: 1;
+}
+
+.pro {
+  font-weight: bold;
+  line-height: 2;
 }
 
 h1 {
-  font-style: oblique;
-  font-size: 20px;
-  font-family: helvetica, sans-serif;
+  font-family: 'Taviraj', serif;
+  width: 300px;
+  margin: 0 auto;
+  color: #66BFBF;
+  font-size: 30px;
 }
 
-ul li {
-  text-indent: none;
-  text-decoration: none;
-  list-style: none; 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #444444;
+}
+
+hr {
+  width: 50%;
+}
+
+.homepage-header {
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+.top_container {
+  background-color: #216583;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.middle_containner {
+
+}
+
+.bottom_container {
+
+}
+.profile-img {
+border-radius: 100%;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+.profile p{
+  font-size: 15px;
+  color: #44000d;
+
+}
+
+.pro{
+  text-decoration: underline;
+
+}
+
+.upper-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 200px;
+}
+
+.skills {
+  width: 50%;
+  margin: auto;
+
+}
+
+.skills .skill-row p{
+  font-size: 15px;
+  color: #44000d;
+
+}
+
+.skill-row {
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 2;
+  display: inline-block;
+}
+
+.skull {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.camp {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+.contact-me p{
+  font-size: 15px;
+  color: #44000d;
+
 }
